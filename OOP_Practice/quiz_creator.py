@@ -21,9 +21,6 @@ class Quiz:
             if user_ans == question.correct_answer:
                 print("correct!")
                 continue
-            else:
-                print("wrong!")
-                continue
 
 quiz = Quiz("myquiz")
 
